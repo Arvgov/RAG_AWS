@@ -1,6 +1,6 @@
 ## RAG QA system for AWS Sagemaker
 
-In this project, I have implemented Retrieval-augmented generation (RAG) to answer questions related to AWS Sagemaker. The pretrained model is flan-t5-xl, and the code was run using Sagemaker endpoints. For our prompt contexts, a csv file with questions and answers related to sagemaker can be found here: s3://jumpstart-cache-prod-us-east-2/training-datasets/Amazon_SageMaker_FAQs/
+In this project, I have implemented Retrieval-augmented generation (RAG) to answer questions related to AWS Sagemaker. The pretrained model is flan-t5-xl, and the code was run using AWS endpoints. For our prompt contexts, a csv file with questions and answers related to sagemaker can be found here: s3://jumpstart-cache-prod-us-east-2/training-datasets/Amazon_SageMaker_FAQs/
 
 I used Pinecone to implement RAG, and used streamlit to have an interactive front-end for my deployed RAG model. Here is a screenshot of what that looks like:
 
